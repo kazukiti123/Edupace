@@ -15,7 +15,7 @@ https://edupace.herokuapp.com/
 
 
 # アプリケーションを作成した背景
-自身が個人事業主（お金の塾）として従事していた際に、教えたい側と教える側をつなげるサイトがなく、アピールするのに苦戦したため、その時の想いをもとに作成
+自身が個人事業主（お金の塾）として従事していた際に、教えたい側と教える側を繋げるサイトがなく、発信するのに苦慮したため、その時の想いをもとに作成
 
 # 洗い出した要件
 https://docs.google.com/spreadsheets/d/1V6WyRfhk7xHkdKKzxBbTy5JJ5ExvVGGrrin5aVlXa04/edit#gid=1785908763
