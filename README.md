@@ -11,7 +11,12 @@ https://edupace.herokuapp.com/
 ・Basic認証ID: admin  
 ・Basic認証パスワード： 2222
 
+# 利用方法
+## 講師側
+新規登録フォームから情報を入力する。生徒から申請が来るとマイページに通知がいき、同画面からチャット画面へ移動し生徒とやりとりする。
 
+## 生徒側
+新規登録フォームから情報を入力する。メイン画面から教えてほしい講師を選択し、申請ボタンを押す。自動的にチャット画面に遷移するので、そこで講師とやりとりする。
 
 
 # アプリケーションを作成した背景
@@ -23,8 +28,11 @@ https://docs.google.com/spreadsheets/d/1V6WyRfhk7xHkdKKzxBbTy5JJ5ExvVGGrrin5aVlX
 
 
 # テーブル設計
-https://gyazo.com/f9f190fbfe145483807915f1230f4165
+https://gyazo.com/f95a4c898b69c65b3d88b3b138ae9b58
 
+
+# 画面遷移図
+https://gyazo.com/fb73eea85c117c7ca2a29949fceef12e
 
 # 開発環境
 ・フロントエンド  
