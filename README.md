@@ -32,7 +32,7 @@ https://gyazo.com/f95a4c898b69c65b3d88b3b138ae9b58
 
 
 # 画面遷移図
-https://gyazo.com/fb73eea85c117c7ca2a29949fceef12e
+https://docs.google.com/spreadsheets/d/1gQGVPojIHZ0npjEIZJ5KU15BW0XlTAp59832OMxwauM/edit#gid=0
 
 # 開発環境
 ・フロントエンド  
