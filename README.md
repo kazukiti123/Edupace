@@ -59,7 +59,7 @@ https://docs.google.com/spreadsheets/d/1gQGVPojIHZ0npjEIZJ5KU15BW0XlTAp59832OMxw
 | self_introduction   | text   | null: false |
 | available_subjects  | string | null: false |
 | favorite_subject    | string | null: false |
-| desired hourly wage | string | null: false |
+| desired_hourly_wage | string | null: false |
 
 
 ### Association
