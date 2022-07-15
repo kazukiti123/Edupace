@@ -46,19 +46,20 @@ https://docs.google.com/spreadsheets/d/1gQGVPojIHZ0npjEIZJ5KU15BW0XlTAp59832OMxw
 
 ## users テーブル
 
-| Column             | Type   | Options     |
-| ------------------ | ------ | ----------- |
-| name               | string | null: false |
-| class              | string | null: false |
-| sex                | string | null: false |
-| birthday           | string | null: false |
-| prefecture         | string | null: false |
-| email              | string | null: false |
-| encrypted_password | string | null: false |
-| image              | string | null: false |
-| self_introduction  | text   | null: false |
-| available_subjects | string | null: false |
-| favorite_subject   | string | null: false |
+| Column              | Type   | Options     |
+| ------------------- | ------ | ----------- |
+| name                | string | null: false |
+| class               | string | null: false |
+| sex                 | string | null: false |
+| birthday            | string | null: false |
+| prefecture          | string | null: false |
+| email               | string | null: false |
+| encrypted_password  | string | null: false |
+| image               | string | null: false |
+| self_introduction   | text   | null: false |
+| available_subjects  | string | null: false |
+| favorite_subject    | string | null: false |
+| desired hourly wage | string | null: false |
 
 
 ### Association
