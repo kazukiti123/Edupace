@@ -1,0 +1,222 @@
+/******************************************************** 
+　ヘッダー
+********************************************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  background-color: #e4c3f1;
+  align-items: center;
+  height:80px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  color: #c062ff;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 80px;
+  margin: 30px;
+}
+
+.nav-lists {
+  display: flex;
+  height: 80px;
+  margin-right: 50px;
+  color: #c062ff;
+}
+
+.nav-lists__list {
+  margin-left: 70px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 80px;
+  color: #535353;
+}
+
+/******************************************************** 
+　フッター
+********************************************************/
+.footer {
+  width: 1440px;
+  height: 70px;
+  background-color: #FAFAFA;
+}
+
+.copyright {
+  line-height: 70px;
+  text-align: center;
+  font-size: 16px;
+  color: #959393;
+}
+
+/******************************************************** 
+　共通事項 
+********************************************************/
+.hero {
+  position: relative;
+  width: 1440px;
+  height: 671px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 30%;
+}
+
+.hero-items {
+  position: absolute;
+  top: 15%;
+  padding: 0 100px 0 50px;
+  width: calc(1440px - 150px);
+}
+
+.hero-text__main {
+  display: block;
+  font-size: 70px;
+  font-weight: 600;
+  color: #535353;
+  margin: 0 60px;
+}
+
+.service-items{
+  background-color: #e4c3f1;
+  color:#FFFFFF;
+  padding: 30px;
+  margin: 60px;
+  border-radius: 10px;
+  width: 600px;
+  height: 330px;
+}
+
+.service-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.service-btn {
+  background-color: #e4c3f1;
+  color:#FFFFFF;
+  padding: 15px;
+  margin: 60px 50px 60px 0 ;
+  border-radius: 10px;
+  width: 250px;
+  border: #c062ff solid 3px;
+}
+
+.service-lists{
+  display: flex;
+  color: #535353;
+  margin-top: 10px;
+}
+
+.service-list-main{
+  background-color: #FAFAFA;
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-list-program{
+  background-color: rgb(255, 237, 255);
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-list-reserve{
+  background-color: rgb(255, 255, 213);
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-list-seat{
+  background-color:#d0f0ba;
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-list-customer{
+  background-color: #d1cdff;
+  margin-right: 8px;
+  padding: 5px 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-explanation-lists{
+  color:#959393;
+}
+
+.explanation-image{
+  height:200px;
+}
+
+.service-explanation-main{
+  background-color: #FAFAFA;
+  border-bottom: solid #FAFAFA 3px;
+  height:250px;
+}
+
+.service-explanation-program{
+  background-color: rgb(255, 237, 255);
+  border-bottom: solid #e4c3f1 3px;
+  height:250px;
+}
+
+.service-explanation-reserve{
+  background-color: rgb(255, 255, 213);
+  border-bottom: solid #e4c3f1 3px;
+  height:250px;
+}
+
+.service-explanation-seat{
+  background-color: #d0f0ba;
+  border-bottom: solid #e4c3f1 3px;
+  height:250px;
+}
+
+.service-explanation-customer{
+  background-color: #d1cdff;
+  border-bottom: solid #e4c3f1 3px;
+  height:250px;
+}
+
+.service-btn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.field{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.actions{
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 30px;
+}
+
+input[type="password"] {
+  width: 250px;
+  height: 30px;
+}
+
+input[type="email"] {
+  width: 250px;
+  height: 30px;
+}

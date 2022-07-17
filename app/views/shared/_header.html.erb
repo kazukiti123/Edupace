@@ -1,0 +1,23 @@
+<header class="header">
+
+  <h1 class="logo">
+    <% unless user_signed_in?%>
+      <%= link_to 'Edupace', root_path %>
+    <%end%>
+  </h1>
+  <ul class="nav-lists">
+    <% if user_signed_in?%>
+      <%#↓チーム名は現在作業中のチーム名にする%>
+      <% if @team.name == current_user.nickname %>
+        <li><%= link_to 'マイチーム', team_path(@team), class: "nav-lists__list" %></li>
+      <% else %>
+        <li><%= link_to 'チーム名', "#", class: "nav-lists__list" %></li>
+      <% end %>
+      <li><%= link_to current_user.nickname, destroy_user_session_path, class: "nav-lists__list" %></li>
+      <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "nav-lists__list" %></li>
+    <% else %>
+      <li><%= link_to 'ログイン', new_user_session_path, class: "nav-lists__list" %></li>
+      <li><%= link_to '新規登録', new_user_registration_path, class: "nav-lists__list" %></li>
+    <% end %>
+  </ul>
+</header>
